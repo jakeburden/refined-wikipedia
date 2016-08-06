@@ -1,0 +1,27 @@
+{
+  "name": "Refined Wikipedia",
+  "version": "1.0.0",
+  "description": "Enforces the mobile web version of Wikipedia and improves its interface",
+  "homepage_url": "https://github.com/jekrb/refinded-wikipedia",
+  "manifest_version": 2,
+  "minimum_chrome_version": "50",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "storage",
+    "https://en.wikipedia.org/*"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "run_at": "document_start",
+      "matches": ["https://en.m.wikipedia.org/*"],
+      "css": ["content.css", "dark-mode.css"],
+      "js": ["content.js"]
+    }
+  ]
+}

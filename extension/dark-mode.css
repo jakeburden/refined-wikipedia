@@ -1,0 +1,19 @@
+body.dark-mode,
+body.dark-mode .content table.infobox,
+body.dark-mode #mw-mf-page-center{
+  background: rgb(27, 43, 52);
+  color: #fff;
+}
+
+body.dark-mode .content img {
+  background: #fff
+}
+
+body.dark-mode a,
+body.dark-mode span:hover .refined-anchor {
+  color: rgb(102, 153, 204);
+}
+
+ body.dark-mode .thumbcaption {
+   color: #ff2e88
+ }

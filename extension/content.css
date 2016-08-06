@@ -1,0 +1,43 @@
+.mw-headline .refined-anchor {
+  color: rgba(0,0,0,0.8);
+  visibility: hidden;
+  text-decoration: none;
+}
+
+span:hover .refined-anchor {
+  visibility: visible;
+}
+
+.toc-mobile,
+.mw-ui-icon {
+  display: none !important;
+}
+
+.collapsible-block,
+.mw-ui-icon-edit,
+.edit-page {
+  display: block !important;
+  visibility: visible !important;
+}
+
+h1#section_0,
+.pre-content h1, .content h1, .content h2, h3, h4, h5, h6,
+.content .section-heading .mw-headline,
+.content .in-block .mw-headline {
+  margin-top: 1em;
+  width: 100%;
+  font-family: Avenir, sans-serif;
+  letter-spacing: 1px;
+}
+
+.section-heading {
+  margin-top: 2em;
+}
+
+.content p {
+  margin: 0.5em 0 1em 0;
+  line-height: 1.8;
+  font-family: Athelas, Georgia, serif;
+  font-size: 1.1em;
+}
+
