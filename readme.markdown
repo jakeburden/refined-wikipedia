@@ -14,20 +14,7 @@
 
 ---
 
-# Before
-
-![](ogRabin.png)
-![](ogNietzche.png)
-
-# After
-
-![](refinedRabin.png)
-![](refinedNietzche.png)
-
-# Dark mode
-
-![](darkModeRabin.png)
-![](darkModeNietzche.png)
+![](refined.png)
 
 # Hover anchors
 
