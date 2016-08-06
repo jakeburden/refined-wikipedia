@@ -16,6 +16,10 @@
 
 ![](refined.png)
 
+# Dark mode <kbd>d</kbd>
+
+![](darkMode.png)
+
 # Hover anchors
 
 ![](anchor.png)
